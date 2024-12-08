@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <liink rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <h1 class="title">TETRIS by: Live Squid</h1>
+
+    <div class="game-content-container">
+        <div class = "left-bar">
+            <div class="stats">
+                <h3>Controls:</h3>
+                <p><strong>Move:</strong> Left Arrow | Right Arrow/ A D</p>
+                <p><strong>Rotate:</strong> Up Arrow / W</p>
+                <p><strong>Soft Drop:</strong> Down Arrow/ S</p>
+                <p><strong>Hard Drop:</strong> Spacebar</p>
+            </div>
+            <br>
+            <div class="stats">
+                <p id="Score">Score:</p>
+                <p id="Rows">Rows:</p>
+                <p id="Dropped">Dropped:</p>
+            </div>
+    <div class="tetris">
+        <!-- 40x40 pieces -->
+        <canvas id="tetris" width="300" height="630"></canvas>
+    </div>
+
+</body>
+<script src = "index.js"></script>
+</html>
